@@ -27,6 +27,13 @@
 
   $ids = [22 => 'Brad', 44 => 'Jose', 63 => 'William'];
 
+  // Add to arrays
+  $ids[11] = 'Jill';
+  $people['Jill'] = 23;
+  print_r($people);
+  echo '<br>';
+  print_r($ids);
+  echo '<br>';
 
   //Multi-Dimensional Array
     # Arrays within arrays
